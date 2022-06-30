@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(60, 129, 225);
+}
+
+.white {
+  color: white;
+}
+
+.NavBar {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-inline: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
