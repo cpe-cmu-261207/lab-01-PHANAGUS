@@ -67,5 +67,6 @@
 
 .imgcard {
   height: 125px;
+  min-width: 27%;
   width: 27%;
 }
