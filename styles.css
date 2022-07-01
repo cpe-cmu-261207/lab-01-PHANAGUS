@@ -9,9 +9,25 @@
 .NavBar {
   margin-top: auto;
   margin-bottom: auto;
-  padding-inline: 5%;
+  padding-inline: 2%;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.navnow {
+  text-decoration: none;
+  color: rgb(96, 210, 245);
+  font-size: xx-large;
+  font-family: "Staatliches", cursive;
+  font-weight: 400;
+}
+
+.navnot {
+  text-decoration: none;
+  color: rgb(212, 212, 212);
+  font-size: x-large;
+  font-family: "Staatliches", cursive;
+  font-weight: 400;
 }
 
 .info1 {
@@ -26,6 +42,20 @@
   font-size: large;
   font-family: "Trirong", serif;
   font-weight: 400;
+}
+
+.info3 {
+  color: rgb(61, 61, 61);
+  font-size: larger;
+  font-family: "Trirong", serif;
+  font-weight: 400;
+}
+
+.info4 {
+  color: rgb(117, 117, 117);
+  font-size: large;
+  font-family: "Trirong", serif;
+  font-weight: 300;
 }
 
 .imgcard {

@@ -20,67 +20,86 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Trirong:wght@200;300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Staatliches&family=Trirong:wght@200;300;400&display=swap"
       rel="stylesheet"
     />
+    <!-- อ้างอิง style -->
     <link rel="stylesheet" href="styles.css" />
   </head>
 
-  <body class="bg-primary">
-    <div class="card mt-4 mx-auto w-75">
-      <!-- Card Header 
-      <div class="card-header d-flex justify-content-center align-items-center">
-        <div class="NavBar">
-          <a href="index.html"> Home</a>
-        </div>
-        <div class="NavBar">
-          <a href="exp.html"> Experience</a>
-        </div>
-        <div class="NavBar">
-          <a href="contact.html"> Contact</a>
-        </div>
-      </div>-->
-      <!-- Navigator -->
-      <div class="d-flex justify-content-center py-4">
-        <div class="NavBar">
-          <a href="index.html"> Home</a>
-        </div>
-        <div class="NavBar">
-          <a href="exp.html"> Experience</a>
-        </div>
-        <div class="NavBar">
-          <a href="contact.html"> Contact</a>
-        </div>
+  <body class="bg-dark">
+    <!-- Navigator -->
+    <div class="d-flex justify-content-center py-4">
+      <div class="NavBar">
+        <a href="index.html" class="navnow"> #Home </a>
       </div>
-      <!-- Body -->
-      <div class="card mx-auto mb-5" style="width: 90%">
-        <img
-          src="image/me.jpeg"
-          class="mx-auto my-4"
-          style="width: 175px; border-radius: 10%"
-        />
-        <div>
-          <p class="info1" style="text-align: center">
-            Phanarin Kiatsirithaworn <br />ภานรินทร์ เกียรติศิริถาวร
+      <div class="NavBar">
+        <a href="exp.html" class="navnot"> Experience</a>
+      </div>
+      <div class="NavBar">
+        <a href="contact.html" class="navnot"> Contact</a>
+      </div>
+    </div>
+    <!-- Body -->
+    <div class="card mx-auto mb-5" style="width: 70%">
+      <img
+        src="image/me.jpeg"
+        class="mx-auto my-4"
+        style="width: 175px; border-radius: 10%"
+      />
+      <div>
+        <p class="info1" style="text-align: center">
+          Phanarin Kiatsirithaworn <br />ภานรินทร์ เกียรติศิริถาวร
+        </p>
+        <div class="mx-auto mb-5" style="width: 40%; text-align: center">
+          <hr />
+          <p class="info2">
+            Hi. my name is Phanarin Kiatsirithaworn. I'm studying at Faculty of
+            Computer Engineering, Chiang Mai University. I love video editing.
+            I'm interested in making movies.
           </p>
-          <div class="mx-auto mb-5" style="width: 40%; text-align: center">
-            <hr />
-            <p class="info2">
-              Hi. my name is Phanarin Kiatsirithaworn. I'm studying at Faculty
-              of Computer Engineering, Chiang Mai University. I love video
-              editing. I'm interested in making movies.
-            </p>
-            <hr />
+          <hr />
+        </div>
+        <div class="mx-auto mb-5" style="width: 75%">
+          <p class="info1 mb-4">About me</p>
+          <!-- card1 -->
+          <div class="card mb-3" style="height: 125px">
+            <div class="d-flex">
+              <img src="image/cpp.jpg" class="imgcard rounded-start" />
+              <div class="d-flex flex-column my-auto ms-3">
+                <p class="info3 my-0">C++</p>
+                <p class="info4 mt-1">
+                  I have passed an intoductory C++ writing course.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="mx-auto" style="width: 75%">
-            <p class="info1 mb-4">My Skills</p>
-            <div class="card" style="height: 125px">
-              <div class="d-flex">
-                <img
-                  src="image/videoediting.jpeg"
-                  class="imgcard rounded-start"
-                />
-                <p class="info2 mt-3 ms-3">hi</p>
+          <!-- card2 -->
+          <div class="card mb-3" style="height: 125px">
+            <div class="d-flex">
+              <img
+                src="image/videoediting.jpeg"
+                class="imgcard rounded-start"
+              />
+              <div class="d-flex flex-column my-auto ms-3">
+                <p class="info3 my-0">Video Editing</p>
+                <p class="info4 mt-1">
+                  I love video editing! It takes a lot of my energy. but I still
+                  love it!
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card3 -->
+          <div class="card mb-3" style="height: 125px">
+            <div class="d-flex">
+              <img src="image/drawing.jpg" class="imgcard rounded-start" />
+              <div class="d-flex flex-column my-auto ms-3">
+                <p class="info3 my-0">Drawing Cartoon</p>
+                <p class="info4 mt-1">
+                  I like to draw cartoons in my free time. It's time for
+                  imagination!
+                </p>
               </div>
             </div>
           </div>
