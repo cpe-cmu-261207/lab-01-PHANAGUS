@@ -30,31 +30,38 @@
   font-weight: 400;
 }
 
+.infohead {
+  color: rgb(28, 172, 224);
+  font-size: xx-large;
+  font-family: "Staatliches", cursive;
+  font-weight: 400;
+}
+
 .info1 {
   color: black;
   font-size: x-large;
-  font-family: "Trirong", serif;
+  font-family: "Prompt", sans-serif;
   font-weight: 400;
 }
 
 .info2 {
   color: rgb(87, 87, 87);
   font-size: large;
-  font-family: "Trirong", serif;
+  font-family: "Prompt", sans-serif;
   font-weight: 400;
 }
 
 .info3 {
   color: rgb(61, 61, 61);
   font-size: larger;
-  font-family: "Trirong", serif;
+  font-family: "Prompt", sans-serif;
   font-weight: 400;
 }
 
 .info4 {
   color: rgb(117, 117, 117);
   font-size: large;
-  font-family: "Trirong", serif;
+  font-family: "Prompt", sans-serif;
   font-weight: 300;
 }
 
