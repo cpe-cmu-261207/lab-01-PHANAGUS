@@ -16,28 +16,76 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Pridi:wght@200;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Staatliches&family=Trirong:wght@200;300;400&display=swap"
       rel="stylesheet"
     />
+    <!-- อ้างอิง style -->
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <div class="card mt-4 mx-auto w-75">
-      <div class="card-header d-flex justify-content-center align-items-center">
-        <div class="NavBar">
-          <a href="index.html"> Home</a>
-        </div>
-        <div class="NavBar">
-          <a href="exp.html"> Experience</a>
-        </div>
-        <div class="NavBar">
-          <a href="contact.html"> Contact</a>
+  <body class="bg-dark">
+    <!-- Navigator -->
+    <div class="d-flex justify-content-center py-4">
+      <div class="NavBar">
+        <a href="index.html" class="navnot"> Home </a>
+      </div>
+      <div class="NavBar">
+        <a href="exp.html" class="navnow"> #Experience</a>
+      </div>
+      <div class="NavBar">
+        <a href="contact.html" class="navnot"> Contact</a>
+      </div>
+    </div>
+    <!-- Body -->
+    <div class="card mx-auto mb-5" style="width: 70%">
+        <div class="mx-auto mt-5 mb-5" style="width: 75%">
+          <p class="info1 mb-4">My Experience</p>
+          <!-- card1 -->
+          <div class="card mb-3" style="height: 125px">
+            <div class="d-flex">
+              <img src="image/cpp.jpg" class="imgcard rounded-start" />
+              <div class="d-flex flex-column my-auto ms-3">
+                <p class="info3 my-0">C++</p>
+                <p class="info4 mt-1">
+                  I have passed an intoductory C++ writing course.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card2 -->
+          <div class="card mb-3" style="height: 125px">
+            <div class="d-flex">
+              <img
+                src="image/videoediting.jpeg"
+                class="imgcard rounded-start"
+              />
+              <div class="d-flex flex-column my-auto ms-3">
+                <p class="info3 my-0">Video Editing</p>
+                <p class="info4 mt-1">
+                  I love video editing! It takes a lot of my energy. but I still
+                  love it!
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card3 -->
+          <div class="card mb-3" style="height: 125px">
+            <div class="d-flex">
+              <img src="image/drawing.jpg" class="imgcard rounded-start" />
+              <div class="d-flex flex-column my-auto ms-3">
+                <p class="info3 my-0">Drawing Cartoon</p>
+                <p class="info4 mt-1">
+                  I like to draw cartoons in my free time. It's time for
+                  imagination!
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="card-body">this experience page</div>
     </div>
   </body>
 </html>
